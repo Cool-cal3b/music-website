@@ -1,0 +1,21 @@
+.image_holder {
+  width: 100%;
+  background-image: url("../media/images/forest.jpg");
+  background-size: 1600px 1067px;
+  width: 100%;
+  height: 800px;
+  object-fit: none;
+}
+
+h2 {
+  padding-left: 60px;
+  padding-top: 60px;
+  font-size: 60px;
+  font-style: italic;
+}
+
+h3 {
+  padding-left: 60px;
+  font-size: 30px;
+
+}
