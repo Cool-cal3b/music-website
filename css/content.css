@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #a1dde6;
+  width: 100%;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+.disc {
+  font-size: 30px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.link_cont {
+  margin: 50px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.spot_pic {
+  width: 100px;
+}
+
+.apple_pic {
+  width: 100px;
+}
