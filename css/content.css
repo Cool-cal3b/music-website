@@ -55,3 +55,9 @@ h1 {
 .apple_pic {
   width: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+  .disc {
+    font-size: 17px;
+  }
+}

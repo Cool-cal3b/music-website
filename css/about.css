@@ -28,7 +28,7 @@ body {
   padding: 10px;
   margin: 50px;
   text-align: center;
-  width: 200px;
+  width: 400px;
 }
 
 .header {
@@ -66,4 +66,27 @@ h1 {
   justify-content: center;
   width: 300px;
   height: 300px;
+}
+
+a:active {
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .blurb {
+    flex-direction: column-reverse;
+  }
+
+  #blurb-des {
+    width: 80%;
+  }
+
+  .blurb-cont {
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  .bio-des {
+    width: 80%;
+  }
 }
