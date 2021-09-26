@@ -24,3 +24,20 @@ body {
 .navbar-collapse.collapse.in {
   display: block!important;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.git_link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.git_link::after {
+  color: black;
+}
