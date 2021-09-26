@@ -8,7 +8,19 @@ body {
   flex-direction: column;
 }
 
-navbar {
+.nav_holder {
+  height: 100%;
+}
+
+.navbar-collapse {
+  height: 100%;
+}
+
+.navbar {
   position: sticky;
   top: 0;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
 }
