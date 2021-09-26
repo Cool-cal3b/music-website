@@ -18,15 +18,17 @@ body {
 
 #bio-image {
   margin: 30px;
+  border: 3px solid black;
 }
 
 .bio-des {
   display: flex;
   border: 3px solid black;
   background-image: radial-gradient(white, #97AEBC);
-  padding: 20px;
+  padding: 10px;
+  margin: 50px;
   text-align: center;
-
+  width: 200px;
 }
 
 .header {
@@ -43,6 +45,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
+  align-items: center;
 }
 
 .blurb-cont {
@@ -51,11 +54,16 @@ h1 {
   width: 50%;
   height: 100%;
   object-fit: contain;
+  text-align: center;
+  padding: 0;
 }
 
 #blurb-des {
   padding: 20px;
   border: 3px solid black;
   background-image: radial-gradient(white, #464933);
-
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
 }
