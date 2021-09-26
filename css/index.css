@@ -17,5 +17,16 @@ h2 {
 h3 {
   padding-left: 60px;
   font-size: 30px;
+}
 
+@media only screen and (max-width: 500px) {
+  h2 {
+    padding-left: 10px;
+    font-size: 30px;
+  }
+
+  h3 {
+    padding-left: 10px;
+    font-size: 20px;
+  }
 }

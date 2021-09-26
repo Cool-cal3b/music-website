@@ -18,6 +18,11 @@ img {
   width: 400px;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+}
+
 p {
   font-weight: bold;
   background-image: radial-gradient(white, #FBE4E3);
